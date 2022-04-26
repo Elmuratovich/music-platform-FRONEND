@@ -9,7 +9,7 @@ import TrackList from "../../components/TrackList";
 const Index = () => {
     const router = useRouter();
     const tracks: ITrack[] = [
-        {_id: '1', name: 'Трек 1', artist: 'Исполнитель 1', text: 'какой-то текст', listens: 5, audio: 'http://localhost:5000/audio/392.mp3', picture: 'http://localhost:5000/image/index.jpeg', comments: []},  
+        {_id: '1', name: 'Трек 1', artist: 'Исполнитель 1', text: 'какой-то текст', listens: 5, audio: 'http://localhost:5000/audio/8ed48d50-c407-4cc9-a194-68ba078f13c3.mp3', picture: 'http://localhost:5000/image/3141ddf3-e03e-473f-949e-342a8cf0d145.jpeg', comments: []},  
         {_id: '2', name: 'Трек 2', artist: 'Исполнитель 2', text: 'какой-то текст', listens: 5, audio: 'http://localhost:5000/audio/3924.mp3', picture: 'http://localhost:5000/image/images.jpeg', comments: []},
         {_id: '3', name: 'Трек 3', artist: 'Исполнитель 3', text: 'какой-то текст', listens: 5, audio: 'http://localhost:5000/audio/39278.mp3', picture: 'http://localhost:5000/image/cat.jpeg', comments: []},
     ]
