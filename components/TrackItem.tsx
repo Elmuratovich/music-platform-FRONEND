@@ -1,14 +1,14 @@
 import React from "react";
 import { ITrack } from "../types/track";
 import { Card, Grid } from "@material-ui/core";
-import styles from '../style/TrackItem.module.scss'
+import styles from '../styles/TrackItem.module.scss'
 import IconButton from '@material-ui/core/IconButton';
 import { Delete, Pause, PlayArrow } from "@material-ui/icons";
 import router from "next/router";
 
 interface TrackItemProps {
     track: ITrack;
-    active?: boolean;
+    active?: boolean;style
 }
 
 const TrackItem: React.FC<TrackItemProps> = ({ track, active = false }) => {
