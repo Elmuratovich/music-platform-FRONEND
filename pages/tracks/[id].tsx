@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-key */
+
 import React from "react";
 import { ITrack } from '../../types/track';
 import { useRouter } from 'next/router';
