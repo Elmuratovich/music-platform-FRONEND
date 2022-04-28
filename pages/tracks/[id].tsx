@@ -6,7 +6,7 @@ import MainLayout from '../../layouts/MainLayout';
 import { Button, Grid, TextField } from "@material-ui/core";
 
 const TrackPage = () => {
-    const track: ITrack = {_id: '1', name: 'Трек 1', artist: 'Исполнитель 1', text: 'какой-то текст', listens: 5, audio: 'http://localhost:5000/audio/4253b378-15a8-4df6-b17d-d605a9fbb097.mp3', picture: 'http://localhost:5000/image/d5dee239-8029-4082-b513-acf3cb356783.jpeg', comments: []}
+    const track: ITrack = {_id: '1', name: 'Трек 1', artist: 'Исполнитель 1', text: 'какой-то текст', listens: 5, audio: 'http://localhost:5000/audio/0668361f-b7c9-49f9-8c7e-6b0c81afda7e.mp3', picture: 'http://localhost:5000/image/fbeaeabf-2cda-40f8-bc70-e58e3d05cdba.jpeg', comments: []}
     const router = useRouter()
 
     return (
