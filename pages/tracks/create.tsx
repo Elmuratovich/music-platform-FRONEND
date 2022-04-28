@@ -57,7 +57,7 @@ const Create = () => {
                         label={"Слова к треку"}
                         multiline
                         rows={3}
-                    />
+                    />  
                 </Grid>
                 }
                 {activeStep === 1 &&
