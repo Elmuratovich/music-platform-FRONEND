@@ -1,5 +1,5 @@
 import React from 'react';
-import MainLayout from "../../layouts/MainLayout";
+
 import {Box, Button, Card, Grid} from "@material-ui/core";
 import {useRouter} from "next/router";
 import {ITrack} from "../../types/track";
@@ -11,6 +11,7 @@ import {NextThunkDispatch, wrapper} from "../../store";
 import {fetchTracks} from "../../store/actions-creators/track";
 //import wrapper from '../_app';
 import { GetServerSideProps } from 'next';
+import MainLayout from '../../layouts/MainLayout';
 
 const Index = () => {
     const router = useRouter();
@@ -23,7 +24,7 @@ const Index = () => {
     }
     
     return (
-        <MainLayout>
+        <MainLayout title={"Список треков - музыкальная площадка"}>
             <Grid container justifyContent='center'>
                 <Card style={{width: 900}}> 
                     <Box p={3}>
