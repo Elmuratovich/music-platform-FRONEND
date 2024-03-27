@@ -17,7 +17,6 @@ interface TrackItemProps {
 const TrackItem: React.FC<TrackItemProps> = ({ track, active = true }) => {
     const router = useRouter();
     const {playTrack, pauseTrack, setActiveTrack} = useActions()
-
     const play = (e) => {
         e.stopPropagation()
         setActiveTrack(track)
@@ -46,7 +45,6 @@ const TrackItem: React.FC<TrackItemProps> = ({ track, active = true }) => {
             </Card>
         </>
     );
-
 };
 
 export default TrackItem;
